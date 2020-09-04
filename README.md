@@ -1,1 +1,1 @@
-# google-homepage
+The task is to recreate the look of the google.com homepage.
