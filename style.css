@@ -49,6 +49,7 @@ header {
     color: white;
     background-color: rgb(67, 135, 253);
     border: 1px solid rgb(66, 133, 244);
+    font-family: Arial, sans-serif;
     font-weight: 600;
     font-size: 13px;
     border-radius: 2px;
@@ -78,6 +79,30 @@ header {
 
 #input {
     margin-bottom: 40px;
+}
+
+.searchbtn {
+    background-color: rgb(242, 242, 242);
+    color: rgb(95, 99, 104);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 4px;
+    height: auto;
+    width: auto;
+    padding: 10px 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+}
+
+.searchbtn:hover {
+    border-color: #c6c6c6;
+    color: #222;
+}
+
+.searchbtn:active {
+    border-color: blue;
 }
 
 body {
