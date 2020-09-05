@@ -29,10 +29,15 @@ header {
 #icons {
  height: 25px;
  width: auto;
+ opacity: 0.55;
+}
+
+#icons:hover {
+    opacity: 1;
 }
 
 .header-element {
-    margin: 10px;
+    margin: 8px;
 }
 
 .header-link {
@@ -76,7 +81,11 @@ a:hover {
     text-decoration: underline;
 }
 
-a:active {
+#language:visited, #language:active {
+    color: #609;
+}
+
+.footer-links a:active {
     color: red;
 }
 
