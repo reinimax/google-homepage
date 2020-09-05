@@ -35,6 +35,10 @@ header {
     margin: 10px;
 }
 
+.header-link {
+    color: rgba(0,0,0,.87);
+}
+
 #sign-in {
     margin-right: 30px;
 }
@@ -64,6 +68,18 @@ body {
     font-size: 13px;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
 .footer-container {
     display: flex;
     justify-content: space-between;
@@ -75,10 +91,13 @@ body {
     justify-content: space-around;
 }
 
+
 .footer-left {
-    padding-left: 30px;
+    padding-left: 25px;
+    color: rgba(0,0,0,.54);
 }
 
 .footer-right {
-    padding-right: 30px;
+    padding-right: 25px;
+    color: rgba(0,0,0,.54);
 }
