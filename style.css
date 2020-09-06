@@ -83,6 +83,12 @@ header {
 #input {
     margin-top: 5px;
     margin-bottom: 40px;
+    opacity: 0.4;
+    background-color: transparent;
+    background-image: url(magnifying-glass.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 18px 18px;
 }
 
 #searchbar {
@@ -90,13 +96,10 @@ header {
     height: 48px;
     border-radius: 50px;
     border: 1px solid rgba(0, 0, 0, 0.3);
-    opacity: 0.4;
     background-color: transparent;
-    background-image: url(magnifying-glass.png);
-    background-size: 15px;
-    background-repeat: no-repeat;
-    background-position: 20px 15px;
-}
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    }
 
 #searchbar:hover {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
