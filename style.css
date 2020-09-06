@@ -83,19 +83,26 @@ header {
 #input {
     margin-top: 5px;
     margin-bottom: 40px;
-    opacity: 0.4;
+}
+
+#icon-container {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    opacity: 0.45;
     background-color: transparent;
     background-image: url(magnifying-glass.png);
     background-size: 15px;
     background-repeat: no-repeat;
-    background-position: 18px 18px;
+    width: 15px;
+    height: 15px;
 }
 
 #searchbar {
     width: 580px;
-    height: 48px;
+    height: 45px;
     border-radius: 50px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.15);
     background-color: transparent;
     padding-left: 50px;
     font-size: 16px;
