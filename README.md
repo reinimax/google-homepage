@@ -2,7 +2,7 @@
 
 This was my first project from the Foundations curriculum at [The Odin Project](https://www.theodinproject.com).
 
-![Google Homepage Clone](sreenshot.png)
+![Google Homepage Clone](screenshot.png)
 
 ## Reflection
 
